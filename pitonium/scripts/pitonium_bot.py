@@ -5,7 +5,7 @@
 import telebot
 
 def main():
-    bot = telebot.TeleBot('TOKEN')
+    bot = telebot.TeleBot('1688182700:AAHcaPS9PZ9pS29T5TOLXNeC8BqDvCckZVg')
 
     @bot.message_handler(commands=['start', 'help'])
     def send_welcome(message):

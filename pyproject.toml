@@ -3,7 +3,7 @@ name = "pitonium_bot"
 version = "0.1.0"
 description = "My First Python bot for Telegram"
 authors = ["lport@frtk.ru"]
-repository = "https://github.com/LyuPo7/python-project-lvl3"
+repository = "https://github.com/LyuPo7/Pitonium_bot"
 packages = [
   { include = "pitonium" },
 ]
