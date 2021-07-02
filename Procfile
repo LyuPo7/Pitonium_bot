@@ -1,1 +1,0 @@
-web: python pitonium/scripts/pitonium_bot.py
