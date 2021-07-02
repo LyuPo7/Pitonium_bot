@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pitonium_bot"
+version = "0.1.0"
+description = "My First Python bot for Telegram"
+authors = ["LyuPo <lport@frtk.ru>"]
+repository = "https://github.com/LyuPo7/python-project-lvl2"
+packages = [
+  { include = "pitonium" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pyTelegramBotAPI = "^3.8.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+pitonium = "pitonium.scripts.pitonium_bot:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
