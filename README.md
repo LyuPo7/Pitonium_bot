@@ -1,2 +1,2 @@
 # Pitonium_bot
-My First Python bot for Telegram
+My First Python bot for Telegram.
